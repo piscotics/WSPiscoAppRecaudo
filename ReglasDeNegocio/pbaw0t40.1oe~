@@ -1,0 +1,163 @@
+﻿using FirebirdSql.Data.FirebirdClient;
+using ModelSincronizador;
+using ModelSincronizador.Connection;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+
+namespace ReglasDeNegocio
+{
+    public class CatalogoUsuarios
+    {
+
+        string _cadenaconexion;
+
+
+        public CatalogoUsuarios()
+        {
+        }
+
+        public CatalogoUsuarios(string cadenaConexion)
+        {
+            this._cadenaconexion = cadenaConexion;
+
+        }
+
+
+        public List<TblUsuarios> ConsultarUsuario()
+        {
+
+            List<TblUsuarios> lst = new List<TblUsuarios>();
+            TblUsuarios usuarioBd = new TblUsuarios();
+            Conection db = new Conection();
+            try
+            {
+                string sql = "SELECT ID,USERNAME,CLAVE,ESTADO,FECHAINICIAL,FECHAFINAL,HORAINICIAL, HORAFINAL,IDCOBRADOR, NOMBRES,APELLIDOS,MAQUINA,NIT,PREFIJO,IDCAJAIND,IDCAJAEMP, IDCAJAPAR,IDCAJA, IDCAJAANT  FROM TBLUSUARIOS";
+
+                db.FbConeccion(_cadenaconexion);
+                db.FbConectionOpen();
+                db.ComenzarTransaccion();
+                db.CreateComando(sql);
+                FbDataReader datos = db.EjecutarConsulta();
+
+                while (datos.Read())
+                {
+                    try
+                    {
+                        usuarioBd = new TblUsuarios();
+                        usuarioBd.ID = datos.GetInt16(0);
+                        usuarioBd.USERNAME = datos.GetString(1);
+                        usuarioBd.CLAVE = datos.GetString(2);
+                        usuarioBd.ESTADO = datos.GetString(3);
+                        usuarioBd.FECHAINICIAL = datos.GetDateTime(4);
+                        usuarioBd.FECHAFINAL = datos.GetDateTime(5);
+                        usuarioBd.HORAINICIAL = datos.GetDateTime(6);
+                        usuarioBd.HORAFINAL = datos.GetDateTime(7);
+                        usuarioBd.IDCOBRADOR = datos.GetString(8);
+                        usuarioBd.NOMBRES = datos.GetString(9);
+                        usuarioBd.APELLIDOS = datos.GetString(10);
+                        usuarioBd.MAQUINA = datos.GetString(11);
+                        usuarioBd.NIT = datos.GetString(12);
+                        usuarioBd.PREFIJO = datos.GetString(13);
+                        usuarioBd.IDCAJAIND = datos.GetInt16(14);
+                        usuarioBd.IDCAJAEMP = datos.GetInt16(15);
+                        usuarioBd.IDCAJAPAR = datos.GetInt16(16);
+                        usuarioBd.IDCAJA = datos.GetInt16(17);
+                        if(datos[18].GetType().Name != "DBNull")
+                            usuarioBd.IDCAJAANT = datos.GetInt16(18);
+
+                        lst.Add(usuarioBd);
+                    }
+                    catch (InvalidCastException ex)
+                    {
+                        throw new Exception("Los tipos no coinciden.", ex);
+                    }
+                    catch (DataException ex)
+                    {
+                        throw new Exception("Error de ADO.NET.", ex);
+                    }
+                }
+                datos.Close();
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al acceder a la base de datos para obtener los imeis." + ex.Message);
+            }
+            finally
+            {
+                db.FbConectionClose();
+            }
+
+            return lst;
+        }
+
+
+        public TblUsuarios ConsultarUsuarioLogin(string usuario, string clave)
+        {
+            TblUsuarios usuarioBd = new TblUsuarios();
+            Conection db = new Conection();
+            try
+            {
+                string sql = "SELECT ID,USERNAME,CLAVE,ESTADO,FECHAINICIAL,FECHAFINAL,HORAINICIAL, HORAFINAL,IDCOBRADOR, NOMBRES,APELLIDOS,MAQUINA,NIT,PREFIJO,IDCAJAIND,IDCAJAEMP, IDCAJAPAR,IDCAJA, IDCAJAANT  FROM TBLACTIVACIONIMEI";
+
+                db.FbConeccion(_cadenaconexion);
+                db.FbConectionOpen();
+                db.ComenzarTransaccion();
+                db.CreateComando(sql);
+                FbDataReader datos = db.EjecutarConsulta();
+
+                while (datos.Read())
+                {
+                    try
+                    {
+                        usuarioBd = new TblUsuarios();
+                        usuarioBd.ID = datos.GetInt16(0);
+                        usuarioBd.USERNAME = datos.GetString(1);
+                        usuarioBd.CLAVE = datos.GetString(2);
+                        usuarioBd.ESTADO = datos.GetString(3);
+                        usuarioBd.FECHAINICIAL = datos.GetDateTime(4);
+                        usuarioBd.FECHAFINAL = datos.GetDateTime(5);
+                        usuarioBd.HORAINICIAL = datos.GetDateTime(6);
+                        usuarioBd.HORAFINAL = datos.GetDateTime(7);
+                        usuarioBd.IDCOBRADOR = datos.GetString(8);
+                        usuarioBd.NOMBRES = datos.GetString(9);
+                        usuarioBd.APELLIDOS = datos.GetString(10);
+                        usuarioBd.MAQUINA = datos.GetString(11);
+                        usuarioBd.NIT = datos.GetString(12);
+                        usuarioBd.PREFIJO = datos.GetString(13);
+                        usuarioBd.IDCAJAIND = datos.GetInt16(14);
+                        usuarioBd.IDCAJAEMP = datos.GetInt16(15);
+                        usuarioBd.IDCAJAPAR = datos.GetInt16(16);
+                        usuarioBd.IDCAJA = datos.GetInt16(17);
+                        usuarioBd.IDCAJAANT = datos.GetInt16(18);
+
+                    }
+                    catch (InvalidCastException ex)
+                    {
+                        throw new Exception("Los tipos no coinciden.", ex);
+                    }
+                    catch (DataException ex)
+                    {
+                        throw new Exception("Error de ADO.NET.", ex);
+                    }
+                }
+                datos.Close();
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al acceder a la base de datos para obtener los imeis." + ex.Message);
+            }
+            finally
+            {
+                db.FbConectionClose();
+            }
+
+            return usuarioBd;
+        }
+
+    }
+}

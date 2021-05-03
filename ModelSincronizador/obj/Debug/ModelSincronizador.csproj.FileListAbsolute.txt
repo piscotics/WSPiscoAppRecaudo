@@ -1,0 +1,61 @@
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.dll.config
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.pdb
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.SqlServer.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.xml
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.SqlServer.xml
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.pdb
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.dll.config
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.pdb
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.SqlServer.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.xml
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.SqlServer.xml
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.csproj.CoreCompileInputs.cache
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.csproj.CopyComplete
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.pdb
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.csproj.CoreCompileInputs.cache
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.csproj.CopyComplete
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.csprojAssemblyReference.cache
+E:\Pisco Tics\Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.dll.config
+E:\Pisco Tics\Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.dll
+E:\Pisco Tics\Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.pdb
+E:\Pisco Tics\Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.dll
+E:\Pisco Tics\Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.SqlServer.dll
+E:\Pisco Tics\Sincronizador\ModelSincronizador\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+E:\Pisco Tics\Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.xml
+E:\Pisco Tics\Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.SqlServer.xml
+E:\Pisco Tics\Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.dll
+E:\Pisco Tics\Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.pdb
+E:\Pisco Tics\Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.csproj.CoreCompileInputs.cache
+E:\Pisco Tics\Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.csproj.CopyComplete
+E:\Pisco Tics\Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.csprojAssemblyReference.cache
+E:\Pisco Tics\WEbApp Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.dll.config
+E:\Pisco Tics\WEbApp Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.dll
+E:\Pisco Tics\WEbApp Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.pdb
+E:\Pisco Tics\WEbApp Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.dll
+E:\Pisco Tics\WEbApp Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.SqlServer.dll
+E:\Pisco Tics\WEbApp Sincronizador\ModelSincronizador\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+E:\Pisco Tics\WEbApp Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.xml
+E:\Pisco Tics\WEbApp Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.SqlServer.xml
+E:\Pisco Tics\WEbApp Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.csproj.CoreCompileInputs.cache
+E:\Pisco Tics\WEbApp Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.csproj.CopyComplete
+E:\Pisco Tics\WEbApp Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.dll
+E:\Pisco Tics\WEbApp Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.pdb
+E:\Pisco Tics\WEbApp Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.csprojAssemblyReference.cache
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.dll.config
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincronizador\bin\Debug\ModelSincronizador.pdb
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.xml
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincronizador\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.csprojResolveAssemblyReference.cache
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.csproj.CoreCompileInputs.cache
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincronizador\obj\Debug\ModelSincronizador.pdb

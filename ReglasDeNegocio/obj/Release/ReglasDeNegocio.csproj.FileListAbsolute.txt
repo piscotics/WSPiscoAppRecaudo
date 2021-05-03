@@ -1,0 +1,62 @@
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\bin\Release\ReglasDeNegocio.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\bin\Release\ReglasDeNegocio.pdb
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\bin\Release\FirebirdSql.Data.FirebirdClient.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.pdb
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.dll.config
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csprojAssemblyReference.cache
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CoreCompileInputs.cache
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CopyComplete
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.pdb
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\bin\Release\ReglasDeNegocio.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\bin\Release\ReglasDeNegocio.pdb
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.pdb
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.dll.config
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csprojAssemblyReference.cache
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CoreCompileInputs.cache
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CopyComplete
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.pdb
+F:\Sincronizador\ReglasDeNegocio\bin\Release\ReglasDeNegocio.dll
+F:\Sincronizador\ReglasDeNegocio\bin\Release\ReglasDeNegocio.pdb
+F:\Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.dll
+F:\Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.pdb
+F:\Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.dll.config
+F:\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csprojAssemblyReference.cache
+F:\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CoreCompileInputs.cache
+F:\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CopyComplete
+F:\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.dll
+F:\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.pdb
+E:\Pisco Tics\Sincronizador\ReglasDeNegocio\bin\Release\ReglasDeNegocio.dll
+E:\Pisco Tics\Sincronizador\ReglasDeNegocio\bin\Release\ReglasDeNegocio.pdb
+E:\Pisco Tics\Sincronizador\ReglasDeNegocio\bin\Release\FirebirdSql.Data.FirebirdClient.dll
+E:\Pisco Tics\Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.dll
+E:\Pisco Tics\Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.pdb
+E:\Pisco Tics\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.dll
+E:\Pisco Tics\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.pdb
+E:\Pisco Tics\Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.dll.config
+E:\Pisco Tics\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csprojAssemblyReference.cache
+E:\Pisco Tics\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CoreCompileInputs.cache
+E:\Pisco Tics\Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CopyComplete
+E:\Pisco Tics\WEbApp Sincronizador\ReglasDeNegocio\bin\Release\ReglasDeNegocio.dll
+E:\Pisco Tics\WEbApp Sincronizador\ReglasDeNegocio\bin\Release\ReglasDeNegocio.pdb
+E:\Pisco Tics\WEbApp Sincronizador\ReglasDeNegocio\bin\Release\FirebirdSql.Data.FirebirdClient.dll
+E:\Pisco Tics\WEbApp Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.dll
+E:\Pisco Tics\WEbApp Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.pdb
+E:\Pisco Tics\WEbApp Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.dll.config
+E:\Pisco Tics\WEbApp Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csprojAssemblyReference.cache
+E:\Pisco Tics\WEbApp Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CoreCompileInputs.cache
+E:\Pisco Tics\WEbApp Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CopyComplete
+E:\Pisco Tics\WEbApp Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.dll
+E:\Pisco Tics\WEbApp Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.pdb
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ReglasDeNegocio\bin\Release\ReglasDeNegocio.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ReglasDeNegocio\bin\Release\ReglasDeNegocio.pdb
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.pdb
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ReglasDeNegocio\bin\Release\ModelSincronizador.dll.config
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.pdb

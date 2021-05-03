@@ -1,0 +1,449 @@
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.dll.config
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.pdb
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.exe
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.exe.config
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.rsp
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.exe
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.exe.config
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.rsp
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.AppContext.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Collections.Immutable.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Console.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Compression.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.FileSystem.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Pipes.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Reflection.Metadata.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.AccessControl.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Claims.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.ValueTuple.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XPath.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.exe
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.exe.config
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.rsp
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\VBCSCompiler.exe
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\VBCSCompiler.exe.config
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\Newtonsoft.Json.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\ReglasDeNegocio.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\System.Net.Http.Formatting.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.WebHost.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\FirebirdSql.Data.FirebirdClient.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.pdb
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.dll.config
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\ReglasDeNegocio.pdb
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\Newtonsoft.Json.xml
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\System.Net.Http.Formatting.xml
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.xml
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.WebHost.xml
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Net.Http.Formatting.resources.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Web.Http.resources.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Web.Http.WebHost.resources.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csprojAssemblyReference.cache
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csproj.CoreCompileInputs.cache
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csproj.CopyComplete
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.dll
+E:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.pdb
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.dll.config
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.pdb
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.exe
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.exe.config
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.rsp
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.exe
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.exe.config
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.rsp
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.AppContext.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Collections.Immutable.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Console.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Compression.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.FileSystem.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Pipes.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Reflection.Metadata.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.AccessControl.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Claims.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.ValueTuple.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XPath.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.exe
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.exe.config
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.rsp
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\VBCSCompiler.exe
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\VBCSCompiler.exe.config
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\Newtonsoft.Json.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\ReglasDeNegocio.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\System.Net.Http.Formatting.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.WebHost.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\FirebirdSql.Data.FirebirdClient.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.pdb
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.dll.config
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\ReglasDeNegocio.pdb
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\Newtonsoft.Json.xml
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\System.Net.Http.Formatting.xml
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.xml
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.WebHost.xml
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Net.Http.Formatting.resources.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Web.Http.resources.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Web.Http.WebHost.resources.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csprojAssemblyReference.cache
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csproj.CoreCompileInputs.cache
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csproj.CopyComplete
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.dll
+D:\Pisco Tics\Adasys Sincronizador C#\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.pdb
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.dll.config
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.pdb
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.exe
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.exe.config
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.rsp
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.exe
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.exe.config
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.rsp
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.AppContext.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Collections.Immutable.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Console.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Compression.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.FileSystem.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Pipes.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Reflection.Metadata.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.AccessControl.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Claims.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.ValueTuple.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XPath.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.exe
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.exe.config
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.rsp
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\VBCSCompiler.exe
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\VBCSCompiler.exe.config
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\Newtonsoft.Json.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\ReglasDeNegocio.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\System.Net.Http.Formatting.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.WebHost.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\FirebirdSql.Data.FirebirdClient.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.pdb
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.dll.config
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\ReglasDeNegocio.pdb
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\Newtonsoft.Json.xml
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\System.Net.Http.Formatting.xml
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.xml
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.WebHost.xml
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Net.Http.Formatting.resources.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Web.Http.resources.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Web.Http.WebHost.resources.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csprojAssemblyReference.cache
+F:\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csproj.CoreCompileInputs.cache
+F:\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csproj.CopyComplete
+F:\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.pdb
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Cors.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.Cors.dll
+F:\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.Cors.xml
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.dll.config
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.pdb
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.exe
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.exe.config
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.rsp
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.exe
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.exe.config
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.rsp
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.AppContext.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Collections.Immutable.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Console.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Compression.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.FileSystem.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Pipes.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Reflection.Metadata.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.AccessControl.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Claims.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.ValueTuple.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XPath.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.exe
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.exe.config
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.rsp
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\VBCSCompiler.exe
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\VBCSCompiler.exe.config
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\Newtonsoft.Json.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\ReglasDeNegocio.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\System.Net.Http.Formatting.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Cors.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.Cors.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.WebHost.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\FirebirdSql.Data.FirebirdClient.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.pdb
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\ReglasDeNegocio.pdb
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\System.Net.Http.Formatting.xml
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.xml
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.Cors.xml
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\Newtonsoft.Json.xml
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.WebHost.xml
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Net.Http.Formatting.resources.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Web.Http.resources.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Web.Http.WebHost.resources.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.dll
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.pdb
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.dll.config
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csprojAssemblyReference.cache
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csproj.CoreCompileInputs.cache
+E:\Pisco Tics\Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csproj.CopyComplete
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.dll.config
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.pdb
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.exe
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.exe.config
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.rsp
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.exe
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.exe.config
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.rsp
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.AppContext.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Collections.Immutable.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Console.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Compression.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.FileSystem.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Pipes.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Reflection.Metadata.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.AccessControl.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Claims.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.ValueTuple.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XPath.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.exe
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.exe.config
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.rsp
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\VBCSCompiler.exe
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\VBCSCompiler.exe.config
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\Newtonsoft.Json.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\ReglasDeNegocio.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Net.Http.Formatting.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Cors.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.Cors.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.WebHost.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\FirebirdSql.Data.FirebirdClient.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.pdb
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.dll.config
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\ReglasDeNegocio.pdb
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Net.Http.Formatting.xml
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.xml
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.Cors.xml
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\Newtonsoft.Json.xml
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.WebHost.xml
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Net.Http.Formatting.resources.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Web.Http.resources.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Web.Http.WebHost.resources.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csprojAssemblyReference.cache
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csproj.CoreCompileInputs.cache
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csproj.CopyComplete
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.dll
+E:\Pisco Tics\WEbApp Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.pdb
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.dll.config
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\WebApiPiscoTicsMobile.pdb
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.exe
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.exe.config
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csc.rsp
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.exe
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.exe.config
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\csi.rsp
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.AppContext.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Console.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Compression.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Claims.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.ValueTuple.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.exe
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.exe.config
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\vbc.rsp
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\VBCSCompiler.exe
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\Newtonsoft.Json.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\ReglasDeNegocio.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Net.Http.Formatting.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Cors.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.Cors.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.WebHost.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.pdb
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\ModelSincronizador.dll.config
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\ReglasDeNegocio.pdb
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Net.Http.Formatting.xml
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.xml
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.Cors.xml
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\Newtonsoft.Json.xml
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\System.Web.Http.WebHost.xml
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Web.Http.resources.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csprojResolveAssemblyReference.cache
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.csproj.CoreCompileInputs.cache
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WebApiPiscoTicsMobile\obj\Release\WebApiPiscoTicsMobile.pdb

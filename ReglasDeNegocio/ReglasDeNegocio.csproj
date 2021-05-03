@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9BD2EBD7-3D0B-4548-A150-02BD8D148A9E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReglasDeNegocio</RootNamespace>
+    <AssemblyName>ReglasDeNegocio</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FirebirdSql.Data.FirebirdClient, Version=6.4.0.0, Culture=neutral, PublicKeyToken=3750abcc3150b00c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Inventiva\ServicioBuscarImagenes\BuscarImagenes\bin\Debug\FirebirdSql.Data.FirebirdClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CatalogoActivacionIMEI.cs" />
+    <Compile Include="CatalogoContrato.cs" />
+    <Compile Include="CatalogoUsuarios.cs" />
+    <Compile Include="CatalogoPagos.cs" />
+    <Compile Include="Clases\TblActivacionIMEI.cs" />
+    <Compile Include="Clases\TblAuditoria.cs" />
+    <Compile Include="Clases\TblFuneraria.cs" />
+    <Compile Include="Clases\TblNovedadContrato.cs" />
+    <Compile Include="Clases\TblNovedades.cs" />
+    <Compile Include="Clases\TblPagos.cs" />
+    <Compile Include="Clases\TblPagosAnulados.cs" />
+    <Compile Include="Clases\TblPcNovedadContrato.cs" />
+    <Compile Include="Clases\TblPCPagos.cs" />
+    <Compile Include="Clases\TblPCPagosAnulados.cs" />
+    <Compile Include="Clases\TblRelPuntos.cs" />
+    <Compile Include="Clases\TblRutas.cs" />
+    <Compile Include="Clases\TblTipoPago.cs" />
+    <Compile Include="Clases\TblUsuarios.cs" />
+    <Compile Include="Clases\TblUsuariosM.cs" />
+    <Compile Include="DTO\ConsulPagoDTO.cs" />
+    <Compile Include="DTO\ContratoDTO.cs" />
+    <Compile Include="DTO\CuadreCajaDTO.cs" />
+    <Compile Include="DTO\PagoDTO.cs" />
+    <Compile Include="DTO\PagoResultDTO.cs" />
+    <Compile Include="DTO\PosicisionDTO.cs" />
+    <Compile Include="DTO\TipoNovedadDTO.cs" />
+    <Compile Include="Models\ContractRequest.cs" />
+    <Compile Include="Models\CuadreCajaRequest.cs" />
+    <Compile Include="Models\LoginRequest.cs" />
+    <Compile Include="Models\NoveltyRequest.cs" />
+    <Compile Include="Models\PaysRequest.cs" />
+    <Compile Include="Models\UbicationRequest.cs" />
+    <Compile Include="Models\UpdateContratoRequest.cs" />
+    <Compile Include="Models\UserRequest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValorenLetras.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ModelSincronizador\ModelSincronizador.csproj">
+      <Project>{225e6655-40f2-48c4-b0ca-368e1e99cfa4}</Project>
+      <Name>ModelSincronizador</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
