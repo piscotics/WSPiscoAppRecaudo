@@ -60,3 +60,12 @@ C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ReglasDeNegoc
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CoreCompileInputs.cache
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.dll
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ReglasDeNegocio\obj\Release\ReglasDeNegocio.pdb
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ReglasDeNegocio\bin\Release\ReglasDeNegocio.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ReglasDeNegocio\bin\Release\ReglasDeNegocio.pdb
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ReglasDeNegocio\bin\Release\ModelSincronizador.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ReglasDeNegocio\bin\Release\ModelSincronizador.pdb
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ReglasDeNegocio\bin\Release\ModelSincronizador.dll.config
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ReglasDeNegocio\obj\Release\ReglasDeNegocio.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ReglasDeNegocio\obj\Release\ReglasDeNegocio.pdb

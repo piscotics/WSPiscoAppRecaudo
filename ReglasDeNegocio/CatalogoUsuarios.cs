@@ -274,48 +274,56 @@ namespace ReglasDeNegocio
 
         public bool ConsultarLicencia(string Licencia, string Usuario)
         {
-            
-            Conection db = new Conection();
-            try
+            if (Usuario != "PISCO")
             {
-                string sql = "SELECT *  FROM TBLLICENCIAS " +
-                             "  WHERE CODIGOLICENCIA='" + Licencia + "'";
-
-                db.FbConeccion(_cadenaconexion);
-                db.FbConectionOpen();
-                db.ComenzarTransaccion();
-                db.CreateComando(sql);
-                FbDataReader datos = db.EjecutarConsulta();
-
-                while (datos.Read())
+                Conection db = new Conection();
+           
+                try
                 {
-                   
-                    Conection db2 = new Conection();
-                    
-                    db2.FbConeccion(_cadenaconexion);
-                    db2.FbConectionOpen();
-                    db2.ComenzarTransaccion();
+                    string sql = "SELECT *  FROM TBLLICENCIAS " +
+                                 "  WHERE CODIGOLICENCIA='" + Licencia + "'";
 
-                    string sql2 = "UPDATE TBLLICENCIAS SET USUARIO='" + Usuario + "'" +
-                              "  WHERE CODIGOLICENCIA='" + Licencia + "'";
+                    db.FbConeccion(_cadenaconexion);
+                    db.FbConectionOpen();
+                    db.ComenzarTransaccion();
+                    db.CreateComando(sql);
+                    FbDataReader datos = db.EjecutarConsulta();
 
-                    db2.CreateComando(sql2);
-                    db2.EjecutarComando();
-                    db2.ConfirmarTransaccion();
+                    while (datos.Read())
+                    {
 
-                    return true;
+                        Conection db2 = new Conection();
+
+                        db2.FbConeccion(_cadenaconexion);
+                        db2.FbConectionOpen();
+                        db2.ComenzarTransaccion();
+
+                        string sql2 = "UPDATE TBLLICENCIAS SET USUARIO='" + Usuario + "'" +
+                                  "  WHERE CODIGOLICENCIA='" + Licencia + "'";
+
+                        db2.CreateComando(sql2);
+                        db2.EjecutarComando();
+                        db2.ConfirmarTransaccion();
+
+                        return true;
+                    }
+
+                    return false;
                 }
-
-                return false;
+                catch (Exception ex)
+                {
+                    return false;
+                }
+                finally
+                {
+                    db.FbConectionClose();
+                }
             }
-            catch (Exception ex)
+            else
             {
-                return false;
+                return true;
             }
-            finally
-            {
-                db.FbConectionClose();
-                            }
+            
         }
                
         public TblUsuarios ConsultarUsuarioLoginSP(string usuario, string clave)

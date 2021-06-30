@@ -72,3 +72,14 @@ C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincroni
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincronizador\obj\Release\ModelSincronizador.csproj.CoreCompileInputs.cache
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincronizador\obj\Release\ModelSincronizador.dll
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\ModelSincronizador\obj\Release\ModelSincronizador.pdb
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\ModelSincronizador.dll.config
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\ModelSincronizador.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\ModelSincronizador.pdb
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\EntityFramework.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\EntityFramework.xml
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.csprojResolveAssemblyReference.cache
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.csproj.CoreCompileInputs.cache
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.dll
+C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.pdb
