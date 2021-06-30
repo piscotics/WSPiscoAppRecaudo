@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="CatalogoActivacionIMEI.cs" />
     <Compile Include="CatalogoContrato.cs" />
+    <Compile Include="CatalogoRutas.cs" />
     <Compile Include="CatalogoUsuarios.cs" />
     <Compile Include="CatalogoPagos.cs" />
     <Compile Include="Clases\TblActivacionIMEI.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Models\LoginRequest.cs" />
     <Compile Include="Models\NoveltyRequest.cs" />
     <Compile Include="Models\PaysRequest.cs" />
+    <Compile Include="Models\RutaRequest.cs" />
     <Compile Include="Models\UbicationRequest.cs" />
     <Compile Include="Models\UpdateContratoRequest.cs" />
     <Compile Include="Models\UserRequest.cs" />
