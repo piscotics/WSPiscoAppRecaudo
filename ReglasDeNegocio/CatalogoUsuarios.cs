@@ -691,7 +691,14 @@ namespace ReglasDeNegocio
                             ruta.VALORCARTERA = float.Parse(row[27].ToString());
                             ruta.VALORSEGURO = float.Parse(row[28].ToString()) ;
                             ruta.CELULAR = row[29].ToString();
-                            ruta.PAGOHASTA = Convert.ToDateTime(row[30].ToString());
+                            if (row[30].ToString() != "")
+                            {
+                                ruta.PAGOHASTA = Convert.ToDateTime(row[30].ToString());
+                            }
+                            else
+                            {
+                                ruta.PAGOHASTA = new DateTime(1999,01,01);
+                            }
                             ruta.DEPTOC = row[31].ToString();
                             ruta.MPIOC = row[32].ToString();
                             ruta.BARRIOC = row[33].ToString();
@@ -701,6 +708,8 @@ namespace ReglasDeNegocio
                             ruta.COBERTURA = row[38].ToString();
                             ruta.ULTIMOSPAGOS = row[39].ToString();
                             ruta.BENEFICIARIOS = row[40].ToString();
+                            ruta.FECHAAFILIACION = Convert.ToDateTime(row[41].ToString());
+                            ruta.NOMBREPLAN = row[42].ToString();
                             lst.Add(ruta);
                         }
 
