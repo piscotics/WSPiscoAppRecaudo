@@ -81,7 +81,10 @@ namespace ReglasDeNegocio
             pago.ESTADO = "ACTIVO";
             pago.FECHA = DateTime.Now;
             pago.FECHAPAGOR = DateTime.Now;
-            
+
+            pago.NROREF = pagos.NROREF;
+
+
             try
             {
                 db.FbConeccion(this._cadenaconexionWeb);
@@ -129,9 +132,17 @@ namespace ReglasDeNegocio
                         cmd.Parameters.Add("@POSX", FbDbType.VarChar).Value = pago.POSX;
                         cmd.Parameters.Add("@POSY", FbDbType.VarChar).Value = pago.POSY;
                         if (tienealterna)
+                        {
                             cmd.Parameters.Add("@IDALTERNA", FbDbType.Integer).Value = IdAlterna;
+                        }
                         else
+                        {
                             cmd.Parameters.Add("@IDALTERNA", FbDbType.Integer).Value = null;
+                        }
+
+                        cmd.Parameters.Add("@NROREF", FbDbType.VarChar).Value = pago.NROREF;
+
+                        
                         /*int result = (int)*///
                         ///cmd.ExecuteNonQuery();
                         //cmd.ExecuteScalar();
@@ -212,7 +223,7 @@ namespace ReglasDeNegocio
                             Respuesta.VlrIva = Convert.ToDouble(dt.Rows[0][13]);
                         }
 
-
+                        
 
                         float total = pago.VALOR - pago.DESCUENTO;
                         
@@ -238,7 +249,7 @@ namespace ReglasDeNegocio
             catch (Exception ex)
             {
                 //db.CancelarTransaccion();
-                //throw new Exception("Error Creando pago " + ex.Message);
+                throw new Exception("Error Creando pago " + ex.Message);
                 return new PagoResultDTO();
 
             }
@@ -372,6 +383,10 @@ namespace ReglasDeNegocio
                             pago.FormaPago = Convert.ToString(dt.Rows[0][24]);
                         }
 
+                        if (dt.Rows[0][25].ToString() != "")
+                        {
+                            pago.NROREF = Convert.ToString(dt.Rows[0][25]);
+                        }
                         if (pago != null)
                         { 
                             db = new Conection();

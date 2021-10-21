@@ -39,5 +39,7 @@ namespace ReglasDeNegocio.DTO
         public double? VlrIva { get; set; }
 
         public string FormaPago { get; set; }
+        public string NROREF { get; set; }
+        
     }
 }

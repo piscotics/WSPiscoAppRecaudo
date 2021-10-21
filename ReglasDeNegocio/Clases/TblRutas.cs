@@ -51,8 +51,10 @@ namespace ModelSincronizador
             public string ULTIMOSPAGOS { get; set; }
             public string BENEFICIARIOS { get; set; }
             public DateTime FECHAAFILIACION { get; set; }
-            public string NOMBREPLAN { get; set; }
-        
+            public string PLAN { get; set; }
+            public string NOTA1 { get; set; }
+
+
     }
 
 

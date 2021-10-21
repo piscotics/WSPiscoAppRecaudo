@@ -652,7 +652,7 @@ namespace ReglasDeNegocio
                         cmd.CommandText = "WS_CONSULTARRUTA";
                         cmd.CommandType = CommandType.StoredProcedure;
                         cmd.Parameters.Add("@NUMCOBRADOR", FbDbType.VarChar).Value = Cobrador;
-                        cmd.Parameters.Add("@FECHARUTA", FbDbType.Date).Value = DateTime.Now;
+                        cmd.Parameters.Add("@FECHARUTA", FbDbType.Date).Value = DateTime.Now.ToString("yyyy-MM-dd");
 
 
 
@@ -709,7 +709,8 @@ namespace ReglasDeNegocio
                             ruta.ULTIMOSPAGOS = row[39].ToString();
                             ruta.BENEFICIARIOS = row[40].ToString();
                             ruta.FECHAAFILIACION = Convert.ToDateTime(row[41].ToString());
-                            ruta.NOMBREPLAN = row[42].ToString();
+                            ruta.PLAN = row[42].ToString();
+                            ruta.NOTA1 = row[43].ToString();
                             lst.Add(ruta);
                         }
 

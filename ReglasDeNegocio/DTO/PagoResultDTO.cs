@@ -22,6 +22,8 @@ namespace ReglasDeNegocio.DTO
         public double? VlrSaldo { get; set; } 
         public double? VlrDctoPago { get; set; }
         public double? VlrIva { get; set; }
+     
+
 
     }
 }

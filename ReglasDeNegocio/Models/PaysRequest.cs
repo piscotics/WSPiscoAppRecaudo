@@ -25,7 +25,7 @@ namespace ReglasDeNegocio.Models
         public string FECHAPAGOR { get; set; }
         public string POSX { get; set; }
         public string POSY { get; set; }
-
+        public string NROREF { get; set; }
         public string TITULAR { get; set; }
 
         public string PLAN { get; set; }

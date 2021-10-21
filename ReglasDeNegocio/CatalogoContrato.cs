@@ -174,6 +174,7 @@ namespace ReglasDeNegocio
                                 contrato.BarrioCobro = datos.GetString(19);
                                 contrato.DireccionCobro = datos.GetString(20);
                                 contrato.Email = datos.GetString(21);
+                                contrato.Nota1 = datos.GetString(22);
 
                             }
                             catch (Exception ex)
@@ -349,6 +350,7 @@ namespace ReglasDeNegocio
                                 contrato.BarrioCobro = datos.GetString(19);
                                 contrato.DireccionCobro = datos.GetString(20);
                                 contrato.Email = datos.GetString(21);
+                                contrato.Nota1 = datos.GetString(22);
 
                             }
                             catch (Exception ex)

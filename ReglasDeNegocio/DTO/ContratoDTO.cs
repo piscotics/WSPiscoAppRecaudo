@@ -33,6 +33,7 @@ namespace ModelSincronizador.DTO
         public string DireccionCobro { get; set; }
         
         public string Email { get; set; }
+        public string Nota1 { get; set; }
 
     }
 }

@@ -31,5 +31,7 @@ namespace ReglasDeNegocio.DTO
         public float SALDOC { get; set; }
         public String POSX { get; set; }
         public String POSY { get; set; }
+        public String NROREF { get; set; }
+        
     }
 }
