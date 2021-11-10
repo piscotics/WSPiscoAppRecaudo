@@ -223,7 +223,15 @@ namespace ReglasDeNegocio
                             Respuesta.VlrIva = Convert.ToDouble(dt.Rows[0][13]);
                         }
 
-                        
+                        if (dt.Rows[0][14].ToString() != "")
+                        {
+                            Respuesta.IdContrato = dt.Rows[0][14].ToString();
+                        }
+
+                        if (dt.Rows[0][15].ToString() != "")
+                        {
+                            Respuesta.IdPersona = dt.Rows[0][15].ToString();
+                        }
 
                         float total = pago.VALOR - pago.DESCUENTO;
                         
