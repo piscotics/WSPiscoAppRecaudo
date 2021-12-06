@@ -17,6 +17,8 @@ namespace ReglasDeNegocio.Models
         public float DESCUENTO { get; set; }
         public float CANTIDADCUOTAS { get; set; }
         public string MAQUINA { get; set; }
+        public string TRANSAC { get; set; }
+        
         public string USUARIO { get; set; }
         public string OBSERVACIONES { get; set; }
         public float CUOTAMENSUAL { get; set; }
@@ -26,8 +28,9 @@ namespace ReglasDeNegocio.Models
         public string POSX { get; set; }
         public string POSY { get; set; }
         public string NROREF { get; set; }
+        public string IDENTIFICADORBASE { get; set; }
         public string TITULAR { get; set; }
-
+        
         public string PLAN { get; set; }
 
 
@@ -45,6 +48,12 @@ namespace ReglasDeNegocio.Models
         {
             CatalogoPagos catalogo = new CatalogoPagos(CadenaConexion, CadenaConexionWeb);
             return catalogo.ConsultaPagos(NroContrato);
+        }
+
+        public List<string> ConsultarNovedades(string NroContrato)
+        {
+            CatalogoPagos catalogo = new CatalogoPagos(CadenaConexion, CadenaConexionWeb);
+            return catalogo.ConsultaNovedad(NroContrato);
         }
 
         public int oki(string NroContrato)

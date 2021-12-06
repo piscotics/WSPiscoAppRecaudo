@@ -63,7 +63,7 @@ namespace ReglasDeNegocio
             else
                 pago.IDCONTRATO = pagos.IDCONTRATO;
 
-            pago.IDENTIFICADORBASE = "FUNERARIAS";
+            pago.IDENTIFICADORBASE = pagos.IDENTIFICADORBASE;
             pago.IDPERSONA = pagos.IDPERSONA;
             pago.MAQUINA = pagos.MAQUINA;
             pago.OBSERVACIONES = pagos.OBSERVACIONES;
@@ -75,12 +75,12 @@ namespace ReglasDeNegocio
             pago.FORMAPAGO = pagos.FORMAPAGO;
             pago.TITULAR = pagos.TITULAR;
             pago.TPAGO = "M";
-            pago.TRANSAC = "";
+            pago.TRANSAC = pagos.TRANSAC;
             pago.USUARIO = pagos.USUARIO;
             pago.VALOR = pagos.VALOR;
             pago.ESTADO = "ACTIVO";
             pago.FECHA = DateTime.Now;
-            pago.FECHAPAGOR = DateTime.Now;
+            pago.FECHAPAGOR = Convert.ToDateTime( pagos.FECHAPAGOR);
 
             pago.NROREF = pagos.NROREF;
 
@@ -625,9 +625,10 @@ namespace ReglasDeNegocio
             
         }
 
-        public int GrabarNovedad(NoveltyRequest novedad)
+        public NovedadResultDTO GrabarNovedad(NoveltyRequest novedad)
         {
             Conection db = new Conection();
+            NovedadResultDTO Respuesta = new NovedadResultDTO();
 
             if (novedad.FECHAPROGRAMADA.Year == 1)
                 novedad.FECHAPROGRAMADA = DateTime.Now;
@@ -657,11 +658,24 @@ namespace ReglasDeNegocio
                         cmd.Parameters.Add("@OBSERVACIONES", FbDbType.VarChar).Value = novedad.Observaciones;
                         cmd.Parameters.Add("@IDALTERNA", FbDbType.Integer).Value = 1;
                         /*int result = (int)*/
-                        cmd.ExecuteScalar();
-                        return 1;
+                       // cmd.ExecuteScalar();
+
+                        FbDataReader adapter = cmd.ExecuteReader();
+                        DataTable dt = new DataTable();
+                        dt.Load(adapter);
+                        if (dt.Rows[0][0].ToString() != "")
+                        {
+                            Respuesta.IdContrato = dt.Rows[0][0].ToString();
+                        }
+                        if (dt.Rows[0][1].ToString() != "")
+                        {
+                            Respuesta.Respuesta = dt.Rows[0][1].ToString();
+                        }
+                        // return 1;
                         //Console.WriteLine(result);
                     }
                 }
+                return Respuesta;
                 //db.EjecutarComandoProcedure();
                 //db.ConfirmarTransaccion();
 
@@ -670,7 +684,7 @@ namespace ReglasDeNegocio
             {
                 //db.CancelarTransaccion();
                 //throw new Exception("Error Creando pago " + ex.Message);
-                return -1;
+                throw new Exception("Error Creando novedad " + ex.Message);
 
             }
             finally
@@ -740,6 +754,69 @@ namespace ReglasDeNegocio
             }
 
         }
+
+        public List<string> ConsultaNovedad(string NroContrato)
+        {
+
+            List<string> lstNovedades = new List<string>();
+
+            Conection db = new Conection();
+
+            try
+            {
+                db.FbConeccion(this._cadenaconexion);
+                db.FbConectionOpen();
+
+                DataTable table = new DataTable();
+                using (FbConnection conn = new FbConnection(this._cadenaconexion))
+                {
+                    conn.Open();
+                    using (FbCommand cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = "WS_CONSULTARNOVEDADES";
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("@idcontrato", FbDbType.VarChar).Value = NroContrato;
+
+
+                        FbDataReader datos = cmd.ExecuteReader();
+
+                        while (datos.Read())
+                        {
+                            string novedades = string.Empty;
+                            try
+                            {
+
+                                novedades += " Nro Novedad: " + datos.GetString(0);
+                                novedades += " - Fecha:  " + (datos.GetDateTime(1)).ToString("dd/MMM/yyyy");
+                                novedades += " - Motivo: " + datos.GetString(2);
+                                novedades += " - Observaciones: " + datos.GetString(3);
+                                novedades += " - Usuario: " + datos.GetString(4);
+                               
+                            }
+                            catch (Exception ex)
+                            {
+                                throw new Exception("error consultando novedades por contrato" + ex.Message);
+                            }
+
+                            lstNovedades.Add(novedades);
+                        }
+
+                    }
+                }
+
+                return lstNovedades;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error Consultando pagos por Contrato" + ex.Message);
+            }
+            finally
+            {
+                db.FbConectionClose();
+            }
+
+        }
+
 
         public List<string> ConsultaLstPagos(CuadreCajaRequest consulta)
         {

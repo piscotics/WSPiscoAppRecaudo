@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ReglasDeNegocio.DTO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,7 +31,7 @@ namespace ReglasDeNegocio.Models
             this.CadenaConexionWeb = _cadenaConxWeb;
         }
 
-        public int RegistroNovedad(NoveltyRequest novedad)
+        public NovedadResultDTO RegistroNovedad(NoveltyRequest novedad)
         {
             CatalogoPagos catalogo = new CatalogoPagos(CadenaConexion, CadenaConexionWeb);
             return catalogo.GrabarNovedad(novedad);

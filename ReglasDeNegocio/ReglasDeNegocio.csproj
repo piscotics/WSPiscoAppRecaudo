@@ -69,6 +69,7 @@
     <Compile Include="DTO\ConsulPagoDTO.cs" />
     <Compile Include="DTO\ContratoDTO.cs" />
     <Compile Include="DTO\CuadreCajaDTO.cs" />
+    <Compile Include="DTO\NovedadResultDTO.cs" />
     <Compile Include="DTO\PagoDTO.cs" />
     <Compile Include="DTO\PagoResultDTO.cs" />
     <Compile Include="DTO\PosicisionDTO.cs" />
