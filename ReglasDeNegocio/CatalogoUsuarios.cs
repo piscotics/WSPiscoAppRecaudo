@@ -367,7 +367,10 @@ namespace ReglasDeNegocio
                             IDCAJAEMP=0,
                             IDCAJAPAR  =0,
                             IDCAJA = 0,
-                            IDCAJAANT=0
+                            IDCAJAANT=0,
+                            RESPUESTA = m.Field<string>("RESPUESTA"),
+                           // OFFLINE = m.Field<int>("OFFLINE")
+
                         }).FirstOrDefault();
 
                        

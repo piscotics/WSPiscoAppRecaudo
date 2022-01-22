@@ -26,6 +26,8 @@ namespace ModelSincronizador
         public Int16 IDCAJAPAR { get; set; }
         public Int16 IDCAJA { get; set; }
         public Int16 IDCAJAANT { get; set; }
+        public string RESPUESTA { get; set; }
+        public int OFFLINE { get; set; }
 
     }
 }
