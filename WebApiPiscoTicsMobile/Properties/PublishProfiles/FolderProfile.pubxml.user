@@ -6,206 +6,207 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\WebApiPiscoTicsMobile\bin\Release\Publish</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\WebApiPiscoTicsMobile\bin\Release\Publish</_PublishTargetUrl>
+    <History>True|2022-04-19T03:14:23.8974837Z;True|2022-04-18T17:30:04.8318640-05:00;True|2022-04-12T17:34:57.9541797-05:00;True|2022-04-12T14:54:17.4270782-05:00;True|2022-04-12T14:53:36.4155402-05:00;True|2022-04-12T12:49:11.7044979-05:00;True|2022-04-05T17:04:32.5194603-05:00;True|2022-03-22T17:08:28.6069689-05:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/es/System.Net.Http.Formatting.resources.dll">
-      <publishTime>11/28/2018 13:00:46</publishTime>
+      <publishTime>03/22/2022 14:59:09</publishTime>
     </File>
     <File Include="bin/es/System.Web.Http.resources.dll">
-      <publishTime>11/28/2018 13:01:14</publishTime>
+      <publishTime>03/22/2022 14:59:09</publishTime>
     </File>
     <File Include="bin/es/System.Web.Http.WebHost.resources.dll">
-      <publishTime>02/01/2018 13:19:34</publishTime>
+      <publishTime>03/22/2022 14:59:09</publishTime>
     </File>
     <File Include="bin/FirebirdSql.Data.FirebirdClient.dll">
-      <publishTime>10/27/2006 08:56:46</publishTime>
+      <publishTime>03/22/2022 14:59:07</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
-      <publishTime>05/24/2018 14:38:22</publishTime>
+      <publishTime>03/22/2022 14:59:09</publishTime>
     </File>
     <File Include="bin/ModelSincronizador.dll">
-      <publishTime>01/14/2022 15:16:52</publishTime>
+      <publishTime>04/18/2022 22:13:47</publishTime>
     </File>
     <File Include="bin/ModelSincronizador.dll.config">
-      <publishTime>09/12/2019 14:52:48</publishTime>
+      <publishTime>03/22/2022 14:59:07</publishTime>
     </File>
     <File Include="bin/ModelSincronizador.pdb">
-      <publishTime>01/14/2022 15:16:52</publishTime>
+      <publishTime>04/18/2022 22:13:47</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>02/18/2018 10:44:54</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/ReglasDeNegocio.dll">
-      <publishTime>01/19/2022 15:37:29</publishTime>
+      <publishTime>04/18/2022 22:13:47</publishTime>
     </File>
     <File Include="bin/ReglasDeNegocio.pdb">
-      <publishTime>01/19/2022 15:37:29</publishTime>
+      <publishTime>04/18/2022 22:13:47</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
-      <publishTime>05/24/2018 14:38:22</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe.config">
-      <publishTime>05/24/2018 14:38:22</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/csc.rsp">
-      <publishTime>05/24/2018 14:38:22</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/csi.exe">
-      <publishTime>05/24/2018 14:38:22</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/csi.exe.config">
-      <publishTime>05/24/2018 14:38:22</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/csi.rsp">
-      <publishTime>05/24/2018 14:38:22</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
-      <publishTime>05/24/2018 14:38:22</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.AppContext.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Collections.Immutable.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Console.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.Compression.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.FileSystem.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.Pipes.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Reflection.Metadata.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.AccessControl.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Claims.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.ValueTuple.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.XPath.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/vbc.exe">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/vbc.exe.config">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/vbc.rsp">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/VBCSCompiler.exe">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
-      <publishTime>05/24/2018 14:38:24</publishTime>
+      <publishTime>03/22/2022 14:59:10</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
-      <publishTime>11/28/2018 13:00:36</publishTime>
+      <publishTime>03/22/2022 14:59:09</publishTime>
     </File>
     <File Include="bin/System.Web.Cors.dll">
-      <publishTime>11/28/2018 12:58:44</publishTime>
+      <publishTime>03/22/2022 14:59:09</publishTime>
     </File>
     <File Include="bin/System.Web.Http.Cors.dll">
-      <publishTime>11/28/2018 13:01:26</publishTime>
+      <publishTime>03/22/2022 14:59:09</publishTime>
     </File>
     <File Include="bin/System.Web.Http.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>03/22/2022 14:59:09</publishTime>
     </File>
     <File Include="bin/System.Web.Http.WebHost.dll">
-      <publishTime>02/01/2018 13:19:26</publishTime>
+      <publishTime>03/22/2022 14:59:09</publishTime>
     </File>
     <File Include="bin/WebApiPiscoTicsMobile.dll">
-      <publishTime>01/19/2022 15:37:33</publishTime>
+      <publishTime>04/18/2022 22:13:48</publishTime>
     </File>
     <File Include="bin/WebApiPiscoTicsMobile.pdb">
-      <publishTime>01/19/2022 15:37:33</publishTime>
+      <publishTime>04/18/2022 22:13:48</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>03/19/2019 21:22:24</publishTime>
+      <publishTime>03/22/2022 14:59:07</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/14/2022 15:17:52</publishTime>
+      <publishTime>04/18/2022 22:14:23</publishTime>
     </File>
   </ItemGroup>
 </Project>

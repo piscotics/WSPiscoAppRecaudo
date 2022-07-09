@@ -34,6 +34,10 @@ namespace ReglasDeNegocio.Models
             CatalogoPagos catalogo = new CatalogoPagos(CadenaConexion, CadenaConexionWeb);
             return catalogo.ConsultaLstPagos(cuadre);
         }
-
+        public List<string> RegistroLstNovedades(CuadreCajaRequest cuadre)
+        {
+            CatalogoPagos catalogo = new CatalogoPagos(CadenaConexion, CadenaConexionWeb);
+            return catalogo.ConsultaLstNovedades(cuadre);
+        }
     }
 }

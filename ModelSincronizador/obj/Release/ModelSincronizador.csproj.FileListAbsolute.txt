@@ -83,3 +83,15 @@ C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRec
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.csproj.CoreCompileInputs.cache
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.dll
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.pdb
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\ModelSincronizador.dll.config
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\ModelSincronizador.dll
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\ModelSincronizador.pdb
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\EntityFramework.dll
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\EntityFramework.xml
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.csproj.AssemblyReference.cache
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.csproj.CoreCompileInputs.cache
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.csproj.CopyComplete
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.dll
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.pdb

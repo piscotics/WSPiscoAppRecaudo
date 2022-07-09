@@ -28,6 +28,53 @@ namespace ReglasDeNegocio
             this._cadenaconexionWeb = Cadenaconexionweb;
         }
 
+        public NotificarReciboDTO NotificaRecibo(String NoRecibo )
+        {
+            
+            NotificarReciboDTO Respuesta = new NotificarReciboDTO();
+            Conection db = new Conection();
+            try
+            {
+                db.FbConeccion(this._cadenaconexion);
+                db.FbConectionOpen();
+               
+                using (FbConnection conn = new FbConnection(this._cadenaconexion))
+                {
+                    conn.Open();
+                    using (FbCommand cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = "WS_NOTIFICARPAGO";
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("@NORECIBO", FbDbType.VarChar).Value = NoRecibo;
+                        FbDataReader adapter = cmd.ExecuteReader();
+                        DataTable dt = new DataTable();
+                        dt.Load(adapter);
+
+                        //FbDataAdapter adapter = new FbDataAdapter();
+                        //adapter.SelectCommand = cmd;
+                        //DataTable dt = new DataTable();
+                        //adapter.Fill(dt);
+
+                        Respuesta.IDCONTRATO = dt.Rows[0][0].ToString();
+                        Respuesta.RESPUESTA = dt.Rows[0][1].ToString();
+
+                    }
+                    conn.Close();
+                }
+                return Respuesta;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error Creando pago " + ex.Message);
+
+                return new NotificarReciboDTO();
+            }
+            finally
+            {
+                db.FbConectionClose();
+            }
+        }
+
         public  PagoResultDTO GrabarPago(PaysRequest pagos)
         {
             Conection db = new Conection();
@@ -249,6 +296,7 @@ namespace ReglasDeNegocio
 
                         //Console.WriteLine(result);
                     }
+                    conn.Close();
                 }
                 //db.EjecutarComandoProcedure();
                 //db.ConfirmarTransaccion();
@@ -438,6 +486,7 @@ namespace ReglasDeNegocio
                         }
 
                         }
+                    conn.Close();
                     return pago;
                 }
                 
@@ -494,6 +543,7 @@ namespace ReglasDeNegocio
 
                         
                     }
+                    conn.Close();
                 }
 
 
@@ -603,7 +653,8 @@ namespace ReglasDeNegocio
 
                             }
                         }
-                    }
+                    conn.Close();
+                }
                     return lstFuneraria;
                 //}
                 //else
@@ -674,6 +725,7 @@ namespace ReglasDeNegocio
                         // return 1;
                         //Console.WriteLine(result);
                     }
+                    conn.Close();
                 }
                 return Respuesta;
                 //db.EjecutarComandoProcedure();
@@ -740,6 +792,7 @@ namespace ReglasDeNegocio
                         }
 
                     }
+                    conn.Close();
                 }
 
                 return lstPagos;
@@ -754,7 +807,7 @@ namespace ReglasDeNegocio
             }
 
         }
-
+        
         public List<string> ConsultaNovedad(string NroContrato)
         {
 
@@ -802,13 +855,79 @@ namespace ReglasDeNegocio
                         }
 
                     }
+                    conn.Close();
                 }
 
                 return lstNovedades;
             }
             catch (Exception ex)
             {
-                throw new Exception("Error Consultando pagos por Contrato" + ex.Message);
+                throw new Exception("Error Consultando novedades por Contrato" + ex.Message);
+            }
+            finally
+            {
+                db.FbConectionClose();
+            }
+
+        }
+
+        public List<string> ConsultarAdicionales(string NroContrato)
+        {
+
+            List<string> lstNovedades = new List<string>();
+
+            Conection db = new Conection();
+
+            try
+            {
+                db.FbConeccion(this._cadenaconexion);
+                db.FbConectionOpen();
+
+                DataTable table = new DataTable();
+                using (FbConnection conn = new FbConnection(this._cadenaconexion))
+                {
+                    conn.Open();
+                    using (FbCommand cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = "WS_CONSULTARSERVADICIONALES";
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("@idcontrato", FbDbType.VarChar).Value = NroContrato;
+
+
+                        FbDataReader datos = cmd.ExecuteReader();
+
+                        while (datos.Read())
+                        {
+                            string novedades = string.Empty;
+                            try
+                            {
+
+                              
+                                novedades += " Fecha:  " + (datos.GetDateTime(0)).ToString("dd/MMM/yyyy");
+                                novedades += " - Servicio adicional: " + datos.GetString(1);
+                                novedades += " -  Valor: " + datos.GetString(2);
+                                novedades += " - Documento: " + datos.GetString(3);
+                                novedades += " - Nombre: " + datos.GetString(4);
+                                novedades += " - Nota: " + datos.GetString(5);
+
+                            }
+                            catch (Exception ex)
+                            {
+                                throw new Exception("error consultando servicios adicionales por contrato" + ex.Message);
+                            }
+
+                            lstNovedades.Add(novedades);
+                        }
+
+                    }
+                    conn.Close();
+                }
+
+                return lstNovedades;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error Consultando servicios adicionales por Contrato" + ex.Message);
             }
             finally
             {
@@ -864,6 +983,7 @@ namespace ReglasDeNegocio
                             lstPagos.Add(pagos);
                         }
                     }
+                    conn.Close();
                 }
 
 
@@ -872,6 +992,66 @@ namespace ReglasDeNegocio
             catch (Exception ex)
             {
                 throw new Exception("Error Sacando Lista Pagos ");
+            }
+            finally
+            {
+                db.FbConectionClose();
+            }
+        }
+
+        public List<string> ConsultaLstNovedades(CuadreCajaRequest consulta)
+        {
+            Conection db = new Conection();
+            CuadreCajaDTO cuadre = new CuadreCajaDTO();
+            List<string> lstNovedades = new List<string>();
+
+            try
+            {
+
+                db.FbConeccion(this._cadenaconexionWeb);
+                db.FbConectionOpen();
+
+                DataTable table = new DataTable();
+                using (FbConnection conn = new FbConnection(this._cadenaconexionWeb))
+                {
+                    conn.Open();
+                    using (FbCommand cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = "SW_LISTADONOVEDADES";
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("@USUARIO", FbDbType.VarChar).Value = consulta.Dato;
+                        cmd.Parameters.Add("@FECHA", FbDbType.Date).Value = consulta.Fecha;
+
+                        FbDataReader datos = cmd.ExecuteReader();
+
+                        while (datos.Read())
+                        {
+                            string novedades = string.Empty;
+                            try
+                            {
+                                novedades += "Nro Novedad: " + datos.GetString(0);
+                                novedades += " - Fecha Novedad:  " + (datos.GetDateTime(1)).ToString("dd/MMM/yyyy");
+                                novedades += " - Motivo: " + datos.GetString(2);
+                                novedades += " - Observaciones: " + (datos.GetString(3)).ToString();
+                                novedades += " - Usuario: " + (datos.GetString(4)).ToString();
+                            }
+                            catch (Exception ex)
+                            {
+                                throw new Exception("error consultando novedades por contrato" + ex.Message);
+                            }
+
+                            lstNovedades.Add(novedades);
+                        }
+                    }
+                    conn.Close();
+                }
+
+
+                return lstNovedades;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error Sacando Lista Novedades ");
             }
             finally
             {

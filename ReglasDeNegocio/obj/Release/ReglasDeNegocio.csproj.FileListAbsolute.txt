@@ -69,3 +69,13 @@ C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRec
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CoreCompileInputs.cache
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ReglasDeNegocio\obj\Release\ReglasDeNegocio.dll
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ReglasDeNegocio\obj\Release\ReglasDeNegocio.pdb
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ReglasDeNegocio\bin\Release\ReglasDeNegocio.dll
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ReglasDeNegocio\bin\Release\ReglasDeNegocio.pdb
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ReglasDeNegocio\bin\Release\ModelSincronizador.dll
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ReglasDeNegocio\bin\Release\ModelSincronizador.pdb
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ReglasDeNegocio\bin\Release\ModelSincronizador.dll.config
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.AssemblyReference.cache
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ReglasDeNegocio\obj\Release\ReglasDeNegocio.csproj.CopyComplete
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ReglasDeNegocio\obj\Release\ReglasDeNegocio.dll
+C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ReglasDeNegocio\obj\Release\ReglasDeNegocio.pdb

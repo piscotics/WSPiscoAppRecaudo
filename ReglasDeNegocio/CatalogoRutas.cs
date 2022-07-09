@@ -72,6 +72,7 @@ namespace ReglasDeNegocio
                             lstRutas.Add(rutas);
                         }
                     }
+                    conn.Close();
                 }
 
 

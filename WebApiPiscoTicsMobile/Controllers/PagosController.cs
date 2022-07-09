@@ -65,6 +65,21 @@ namespace WebApiPiscoTicsMobile.Controllers
             return Ok(pagore.ConsultarPagos(NumberId));
         }
 
+        [HttpPost]
+        [Route("searcNovedades")]
+        public IHttpActionResult searcNovedades(string NumberId)
+        {
+            PaysRequest pagore = new PaysRequest(connection, connectionweb);
+            return Ok(pagore.ConsultarNovedades(NumberId));
+        }
+
+        [HttpPost]
+        [Route("searcAdicionales")]
+        public IHttpActionResult searcAdicionales(string NumberId)
+        {
+            PaysRequest pagore = new PaysRequest(connection, connectionweb);
+            return Ok(pagore.ConsultarAdicionales(NumberId));
+        }
 
         [HttpGet]
         [Route("Funeraria")]
@@ -81,6 +96,17 @@ namespace WebApiPiscoTicsMobile.Controllers
         {
             PaysRequest pagore = new PaysRequest(connection, connectionweb);
             return Ok(pagore.BuscarPago(NroPago));
+        }
+
+        [HttpPost]
+        [Route("notificarrecibo")]
+        public IHttpActionResult notificarrecibo(string NoRecibo)
+        {
+            
+
+            PaysRequest pagore = new PaysRequest(connection, connectionweb);
+            return Ok(pagore.NotificarPago(NoRecibo));
+           
         }
 
     }

@@ -55,7 +55,11 @@ namespace ReglasDeNegocio.Models
             CatalogoPagos catalogo = new CatalogoPagos(CadenaConexion, CadenaConexionWeb);
             return catalogo.ConsultaNovedad(NroContrato);
         }
-
+        public List<string> ConsultarAdicionales(string NroContrato)
+        {
+            CatalogoPagos catalogo = new CatalogoPagos(CadenaConexion, CadenaConexionWeb);
+            return catalogo.ConsultarAdicionales(NroContrato);
+        }
         public int oki(string NroContrato)
         {
             CatalogoPagos catalogo = new CatalogoPagos(CadenaConexion, CadenaConexionWeb);
@@ -78,6 +82,14 @@ namespace ReglasDeNegocio.Models
             CatalogoPagos catalogo = new CatalogoPagos(CadenaConexion, CadenaConexionWeb);
             ConsulPagoDTO cpay = new ConsulPagoDTO();
             return catalogo.ConsultarPagoImpresion(NroPago);
+        }
+
+
+        public NotificarReciboDTO NotificarPago(String NoRecibo)
+        {
+            CatalogoPagos catalogo = new CatalogoPagos(CadenaConexion, CadenaConexionWeb);
+            NotificarReciboDTO contract = new NotificarReciboDTO();
+            return catalogo.NotificaRecibo(NoRecibo);
         }
 
         public List<TblTipoPago> ListaTipoPago()

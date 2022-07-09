@@ -53,7 +53,11 @@ namespace ModelSincronizador
             public DateTime FECHAAFILIACION { get; set; }
             public string PLAN { get; set; }
             public string NOTA1 { get; set; }
+        
+            public string ULTIMASGESTIONES { get; set; }
+            public string SERVADICIONALES { get; set; }
 
+        
 
     }
 

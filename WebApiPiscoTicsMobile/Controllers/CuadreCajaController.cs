@@ -49,5 +49,13 @@ namespace WebApiPiscoTicsMobile.Controllers
             return Ok(cuadrerequest.RegistroLstPagos(cuadre));
         }
 
+        [HttpPost]
+        [Route("lstNovedadUser")]
+        public IHttpActionResult LstNovedades(CuadreCajaRequest cuadre)
+        {
+            CuadreCajaRequest cuadrerequest = new CuadreCajaRequest(connection, connectionweb);
+            return Ok(cuadrerequest.RegistroLstNovedades(cuadre));
+        }
+
     }
 }

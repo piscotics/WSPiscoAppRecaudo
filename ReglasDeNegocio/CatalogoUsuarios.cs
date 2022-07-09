@@ -87,7 +87,7 @@ namespace ReglasDeNegocio
                             lst.Add(posicion);
                         }
                     }
-
+                    conn.Close();
                     return lst;
                 }
             }
@@ -375,7 +375,7 @@ namespace ReglasDeNegocio
 
                        
                     }
-
+                    conn.Close();
                 }
             }
             catch (Exception ex)
@@ -714,11 +714,14 @@ namespace ReglasDeNegocio
                             ruta.FECHAAFILIACION = Convert.ToDateTime(row[41].ToString());
                             ruta.PLAN = row[42].ToString();
                             ruta.NOTA1 = row[43].ToString();
+                            ruta.ULTIMASGESTIONES = row[44].ToString();
+                            ruta.SERVADICIONALES = row[45].ToString();
                             lst.Add(ruta);
                         }
 
 
                     }
+                    conn.Close();
 
                 }
 

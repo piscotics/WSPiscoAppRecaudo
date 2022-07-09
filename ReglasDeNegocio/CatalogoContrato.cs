@@ -185,6 +185,7 @@ namespace ReglasDeNegocio
                         }
 
                     }
+                    conn.Close();
                 }
 
                 return contrato;
@@ -362,6 +363,7 @@ namespace ReglasDeNegocio
                         }
 
                     }
+                    conn.Close();
                 }
 
                 return lstContratos;
@@ -464,6 +466,7 @@ namespace ReglasDeNegocio
                         }
 
                     }
+                    conn.Close();
                 }
 
                 return lstBeneficiarios;
@@ -552,6 +555,7 @@ namespace ReglasDeNegocio
                         }
 
                     }
+                    conn.Close();
                 }
                 return lsttiponovedad;
             }
@@ -652,6 +656,7 @@ namespace ReglasDeNegocio
                         }
 
                     }
+                    conn.Close();
                 }
 
 
@@ -754,7 +759,7 @@ namespace ReglasDeNegocio
                         }
 
                     }
-
+                    conn.Close();
                     return lstMunicipios;
                 }
             }
@@ -809,6 +814,7 @@ namespace ReglasDeNegocio
                         return dt.Rows[0][0].ToString();
                         //Console.WriteLine(result);
                     }
+                    conn.Close();
                 }
                 //db.EjecutarComandoProcedure();
                 //db.ConfirmarTransaccion();
