@@ -99,6 +99,19 @@ namespace ReglasDeNegocio.Models
             return catalogo.TiposdePagos();
         }
 
+        public List<TblFacturasPagos> ListaFacturasPagos(string idContrato)
+        {
+            CatalogoPagos catalogo = new CatalogoPagos(CadenaConexion, CadenaConexionWeb);
+            List<TblFacturasPagos> lst = new List<TblFacturasPagos>();
+            return catalogo.FacturasdePagos(idContrato);
+        }
+
+        public GuardaMovilEstadoDTO GuardaMovilEstado(string usuario, string estado, string terminal)
+        {
+            CatalogoPagos catalogo = new CatalogoPagos(CadenaConexion, CadenaConexionWeb);
+            GuardaMovilEstadoDTO contract = new GuardaMovilEstadoDTO();
+            return catalogo.GuardaMovilEstado(usuario, estado, terminal);
+        }
 
         public TblFuneraria DatosFuneraria()
         {
@@ -107,5 +120,11 @@ namespace ReglasDeNegocio.Models
             return catalogo.Funeraria();
         }
 
+        public GuardaHistoricoImpresionDTO GuardaHistoricoImpresion(string idContrato, string noRecibo, string usuario, string terminal)
+        {
+            CatalogoPagos catalogo = new CatalogoPagos(CadenaConexion, CadenaConexionWeb);
+            GuardaHistoricoImpresionDTO contract = new GuardaHistoricoImpresionDTO();
+            return catalogo.GuardaHistoricoImpresion(idContrato, noRecibo, usuario, terminal);
+        }
     }
 }

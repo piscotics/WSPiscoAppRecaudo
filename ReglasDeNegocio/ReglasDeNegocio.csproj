@@ -63,12 +63,15 @@
     <Compile Include="Clases\TblPCPagosAnulados.cs" />
     <Compile Include="Clases\TblRelPuntos.cs" />
     <Compile Include="Clases\TblRutas.cs" />
+    <Compile Include="Clases\TblFacturasPagos.cs" />
     <Compile Include="Clases\TblTipoPago.cs" />
     <Compile Include="Clases\TblUsuarios.cs" />
     <Compile Include="Clases\TblUsuariosM.cs" />
     <Compile Include="DTO\ConsulPagoDTO.cs" />
     <Compile Include="DTO\ContratoDTO.cs" />
     <Compile Include="DTO\CuadreCajaDTO.cs" />
+    <Compile Include="DTO\GuardaHistoricoImpresionDTO.cs" />
+    <Compile Include="DTO\GuardaMovilEstadoDTO.cs" />
     <Compile Include="DTO\NotificarReciboDTO.cs" />
     <Compile Include="DTO\NovedadResultDTO.cs" />
     <Compile Include="DTO\PagoDTO.cs" />

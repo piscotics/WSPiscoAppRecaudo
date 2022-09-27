@@ -27,8 +27,11 @@ namespace ReglasDeNegocio.DTO
 
         public string IdPersona { get; set; }
 
-
-
+        public string NitEmpresa { get; set; }
+        public string Empresa { get; set; }
+        public string TelefonoEmpresa { get; set; }
+        public string DireccionEmpresa { get; set; }
+        public string CiudadEmpresa { get; set; }
 
     }
 }

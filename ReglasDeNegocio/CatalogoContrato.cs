@@ -379,6 +379,189 @@ namespace ReglasDeNegocio
 
         }
 
+        public List<ContratoDTO> ConsultarContratoxEmpresaSP(string Empresa)
+        {
+
+            List<ContratoDTO> lstContratos = new List<ContratoDTO>();
+
+            Conection db = new Conection();
+
+            try
+            {
+                db.FbConeccion(this._cadenaconexion);
+                db.FbConectionOpen();
+
+                DataTable table = new DataTable();
+                using (FbConnection conn = new FbConnection(this._cadenaconexion))
+                {
+                    conn.Open();
+                    using (FbCommand cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = "WS_CONSULTARCONTRATONOMBRE";
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("@IDCONTRATO", FbDbType.VarChar).Value = Empresa;
+
+
+                        FbDataReader datos = cmd.ExecuteReader();
+
+                        while (datos.Read())
+                        {
+                            ContratoDTO contrato = new ContratoDTO();
+                            try
+                            {
+
+                                contrato.IdContrato = datos.GetString(0);
+                                if (datos[1].ToString() != "")
+                                    contrato.FechaAfiliacion = datos.GetDateTime(1);
+
+                                if (datos[2].ToString() != "")
+                                    contrato.FechaCobertura = datos.GetDateTime(2);
+                                else
+                                    contrato.FechaCobertura = null;
+
+                                contrato.EstadoContrato = datos.GetString(3);
+                                contrato.Cedula = datos.GetString(4);
+                                contrato.Titular = datos.GetString(5);
+                                contrato.Direccion = datos.GetString(6);
+                                contrato.Telefono = datos.GetString(7);
+                                contrato.Celular = datos.GetString(8);
+                                contrato.Plan = datos.GetString(9);
+                                contrato.Cuota = datos.GetDouble(10);
+                                if (datos[11].ToString() != "")
+                                    contrato.FechaUltimoPago = datos.GetDateTime(11);
+                                else
+                                    contrato.FechaUltimoPago = null;
+
+                                contrato.NoRecibo = datos.GetString(12);
+                                contrato.Valor = datos.GetDouble(13);
+                                contrato.Departamento = datos.GetString(14);
+                                contrato.Municipio = datos.GetString(15);
+
+                                contrato.Barrio = datos.GetString(16);
+                                contrato.DepartamentoCobro = datos.GetString(17);
+                                contrato.MunicipioCobro = datos.GetString(18);
+                                contrato.BarrioCobro = datos.GetString(19);
+                                contrato.DireccionCobro = datos.GetString(20);
+                                contrato.Email = datos.GetString(21);
+                                contrato.Nota1 = datos.GetString(22);
+
+                            }
+                            catch (Exception ex)
+                            {
+                                throw new Exception("Error Consultando Contrato por NroCedula" + ex.Message);
+                            }
+
+                            lstContratos.Add(contrato);
+                        }
+
+                    }
+                    conn.Close();
+                }
+
+                return lstContratos;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error Consultando Contrato por NroCedula" + ex.Message);
+            }
+            finally
+            {
+                db.FbConectionClose();
+            }
+
+        }
+
+        public List<ContratoDTO> ConsultarContratoxNitSP(string Nit)
+        {
+
+            List<ContratoDTO> lstContratos = new List<ContratoDTO>();
+
+            Conection db = new Conection();
+
+            try
+            {
+                db.FbConeccion(this._cadenaconexion);
+                db.FbConectionOpen();
+
+                DataTable table = new DataTable();
+                using (FbConnection conn = new FbConnection(this._cadenaconexion))
+                {
+                    conn.Open();
+                    using (FbCommand cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = "WS_CONSULTARCONTRATONIT";
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("@IDCONTRATO", FbDbType.VarChar).Value = Nit;
+
+
+                        FbDataReader datos = cmd.ExecuteReader();
+
+                        while (datos.Read())
+                        {
+                            ContratoDTO contrato = new ContratoDTO();
+                            try
+                            {
+
+                                contrato.IdContrato = datos.GetString(0);
+                                if (datos[1].ToString() != "")
+                                    contrato.FechaAfiliacion = datos.GetDateTime(1);
+
+                                if (datos[2].ToString() != "")
+                                    contrato.FechaCobertura = datos.GetDateTime(2);
+                                else
+                                    contrato.FechaCobertura = null;
+
+                                contrato.EstadoContrato = datos.GetString(3);
+                                contrato.Cedula = datos.GetString(4);
+                                contrato.Titular = datos.GetString(5);
+                                contrato.Direccion = datos.GetString(6);
+                                contrato.Telefono = datos.GetString(7);
+                                contrato.Celular = datos.GetString(8);
+                                contrato.Plan = datos.GetString(9);
+                                contrato.Cuota = datos.GetDouble(10);
+                                if (datos[11].ToString() != "")
+                                    contrato.FechaUltimoPago = datos.GetDateTime(11);
+                                else
+                                    contrato.FechaUltimoPago = null;
+
+                                contrato.NoRecibo = datos.GetString(12);
+                                contrato.Valor = datos.GetDouble(13);
+                                contrato.Departamento = datos.GetString(14);
+                                contrato.Municipio = datos.GetString(15);
+
+                                contrato.Barrio = datos.GetString(16);
+                                contrato.DepartamentoCobro = datos.GetString(17);
+                                contrato.MunicipioCobro = datos.GetString(18);
+                                contrato.BarrioCobro = datos.GetString(19);
+                                contrato.DireccionCobro = datos.GetString(20);
+                                contrato.Email = datos.GetString(21);
+                                contrato.Nota1 = datos.GetString(22);
+
+                            }
+                            catch (Exception ex)
+                            {
+                                throw new Exception("Error Consultando Contrato por nit" + ex.Message);
+                            }
+
+                            lstContratos.Add(contrato);
+                        }
+
+                    }
+                    conn.Close();
+                }
+
+                return lstContratos;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error Consultando Contrato por nit" + ex.Message);
+            }
+            finally
+            {
+                db.FbConectionClose();
+            }
+
+        }
 
         //public List<string> ConsultarBeneficiarios(string NroCedula)
         //{
@@ -474,6 +657,63 @@ namespace ReglasDeNegocio
             catch (Exception ex)
             {
                 throw new Exception("Error Consultando Beneficiarios por NroCedula" + ex.Message);
+            }
+            finally
+            {
+                db.FbConectionClose();
+            }
+
+        }
+
+        public List<string> ConsultarFacturas(string NroCedula)
+        {
+
+            List<string> lstBeneficiarios = new List<string>();
+
+            Conection db = new Conection();
+
+            try
+            {
+                db.FbConeccion(this._cadenaconexion);
+                db.FbConectionOpen();
+
+                DataTable table = new DataTable();
+                using (FbConnection conn = new FbConnection(this._cadenaconexion))
+                {
+                    conn.Open();
+                    using (FbCommand cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = "WS_CONSULTARFACTURASDETALLE";
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("@idcontrato", FbDbType.VarChar).Value = NroCedula;
+
+
+                        FbDataReader datos = cmd.ExecuteReader();
+
+                        while (datos.Read())
+                        {
+                            string bene = string.Empty;
+                            try
+                            {
+                                bene = datos.GetString(0);
+                            }
+                            catch (Exception ex)
+                            {
+                                throw new Exception("error consultando facturas" + ex.Message);
+                            }
+
+                            lstBeneficiarios.Add(bene);
+                        }
+
+                    }
+                    conn.Close();
+                }
+
+                return lstBeneficiarios;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error Consultando facturas" + ex.Message);
             }
             finally
             {

@@ -52,6 +52,22 @@ namespace WebApiPiscoTicsMobile.Controllers
         }
 
         [HttpPost]
+        [Route("searchnumberempresa")]
+        public IHttpActionResult ByNumberEmpresa(string NumberEmpresa)
+        {
+            ContractRequest contractrequest = new ContractRequest(connection, connectionweb);
+            return Ok(contractrequest.ConsultarContratoEmpresa(NumberEmpresa));
+        }
+
+        [HttpPost]
+        [Route("searchnumbernit")]
+        public IHttpActionResult ByNumberNit(string NumberNit)
+        {
+            ContractRequest contractrequest = new ContractRequest(connection, connectionweb);
+            return Ok(contractrequest.ConsultarContratoNit(NumberNit));
+        }
+
+        [HttpPost]
         [Route("searchBene")]
         public IHttpActionResult Searchbene(string NumberId)
         {
@@ -59,6 +75,13 @@ namespace WebApiPiscoTicsMobile.Controllers
             return Ok(contractrequest.VerBeneficiarios(NumberId));
         }
 
+        [HttpPost]
+        [Route("searchFacturas")]
+        public IHttpActionResult SearchFacturas(string NumberId)
+        {
+            ContractRequest contractrequest = new ContractRequest(connection, connectionweb);
+            return Ok(contractrequest.VerFacturas(NumberId));
+        }
 
 
         [HttpGet]

@@ -48,6 +48,15 @@ namespace WebApiPiscoTicsMobile.Controllers
             return Ok(pagore.ListaTipoPago());
         }
 
+
+        [HttpPost]
+        [Route("FacturasPagos")]
+        public IHttpActionResult FacturasPagos(string idContrato)
+        {
+            PaysRequest pagore = new PaysRequest(connection, connectionweb);
+            return Ok(pagore.ListaFacturasPagos(idContrato));
+        }
+
         [HttpPost]
         [Route("insertNove")]
         public IHttpActionResult InserNove(NoveltyRequest novedad)
@@ -102,11 +111,24 @@ namespace WebApiPiscoTicsMobile.Controllers
         [Route("notificarrecibo")]
         public IHttpActionResult notificarrecibo(string NoRecibo)
         {
-            
-
             PaysRequest pagore = new PaysRequest(connection, connectionweb);
             return Ok(pagore.NotificarPago(NoRecibo));
-           
+        }
+
+        [HttpPost]
+        [Route("guardamovilestado")] 
+        public IHttpActionResult guardamovilestado(string Usuario, string Estado, string Terminal)
+        {
+            PaysRequest pagore = new PaysRequest(connection, connectionweb);
+            return Ok(pagore.GuardaMovilEstado(Usuario, Estado, Terminal));
+        }
+
+        [HttpPost] 
+        [Route("guardahistoricoimpresion")]
+        public IHttpActionResult guardahistoricoimpresion(string IdContrato, string NoRecibo, string Usuario, string Terminal )
+        {
+            PaysRequest pagore = new PaysRequest(connection, connectionweb);
+            return Ok(pagore.GuardaHistoricoImpresion(IdContrato,NoRecibo, Usuario, Terminal));
         }
 
     }

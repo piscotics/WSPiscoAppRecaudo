@@ -280,6 +280,36 @@ namespace ReglasDeNegocio
                             Respuesta.IdPersona = dt.Rows[0][15].ToString();
                         }
 
+
+                  
+
+                        //datos de la empresa
+                        if (dt.Rows[0][16].ToString() != "")
+                        {
+                            Respuesta.NitEmpresa = dt.Rows[0][16].ToString();
+                        }
+
+                        if (dt.Rows[0][17].ToString() != "")
+                        {
+                            Respuesta.Empresa = dt.Rows[0][17].ToString();
+                        }
+
+                        if (dt.Rows[0][18].ToString() != "")
+                        {
+                            Respuesta.TelefonoEmpresa = dt.Rows[0][18].ToString();
+                        }
+
+                        if (dt.Rows[0][19].ToString() != "")
+                        {
+                            Respuesta.DireccionEmpresa = dt.Rows[0][19].ToString();
+                        }
+
+                        if (dt.Rows[0][20].ToString() != "")
+                        {
+                            Respuesta.CiudadEmpresa = dt.Rows[0][20].ToString();
+                        }
+
+
                         float total = pago.VALOR - pago.DESCUENTO;
                         
                         Respuesta.Valorenletras = letras.enletras(total.ToString());
@@ -314,7 +344,86 @@ namespace ReglasDeNegocio
                 db.FbConectionClose();
             }
         }
-        
+
+        public GuardaHistoricoImpresionDTO GuardaHistoricoImpresion(string idContrato, string noRecibo, string usuario, string terminal)
+        {
+            GuardaHistoricoImpresionDTO Respuesta = new GuardaHistoricoImpresionDTO();
+            Conection db = new Conection();
+            try
+            {
+                db.FbConeccion(this._cadenaconexion);
+                db.FbConectionOpen();
+
+                using (FbConnection conn = new FbConnection(this._cadenaconexion))
+                {
+                    conn.Open();
+                    using (FbCommand cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = "WS_GUARDAHISTORICOIMPRESION";
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("@IDCONTRATO", FbDbType.VarChar).Value = idContrato;
+                        cmd.Parameters.Add("@NORECIBO", FbDbType.VarChar).Value = noRecibo;
+                        cmd.Parameters.Add("@USUARIO", FbDbType.VarChar).Value = usuario;
+                        cmd.Parameters.Add("@TERMINAL", FbDbType.VarChar).Value = terminal;
+                        FbDataReader adapter = cmd.ExecuteReader();
+                        DataTable dt = new DataTable();
+                        dt.Load(adapter);
+                    }
+                    conn.Close();
+                }
+                return Respuesta;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error Creando historico impresion " + ex.Message);
+
+                return new GuardaHistoricoImpresionDTO();
+            }
+            finally
+            {
+                db.FbConectionClose();
+            }
+        }
+
+        public GuardaMovilEstadoDTO GuardaMovilEstado(string usuario, string estado, string terminal)
+        {
+            GuardaMovilEstadoDTO Respuesta = new GuardaMovilEstadoDTO();
+            Conection db = new Conection();
+            try
+            {
+                db.FbConeccion(this._cadenaconexion);
+                db.FbConectionOpen();
+
+                using (FbConnection conn = new FbConnection(this._cadenaconexion))
+                {
+                    conn.Open();
+                    using (FbCommand cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = "WS_GUARDAMOVILESTADO";
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("@USUARIO", FbDbType.VarChar).Value = usuario;
+                        cmd.Parameters.Add("@USUARIO", FbDbType.VarChar).Value = estado;
+                        cmd.Parameters.Add("@TERMINAL", FbDbType.VarChar).Value = terminal;
+                        FbDataReader adapter = cmd.ExecuteReader();
+                        DataTable dt = new DataTable();
+                        dt.Load(adapter);
+                    }
+                    conn.Close();
+                }
+                return Respuesta;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error Creando historico estado usurio " + ex.Message);
+
+                return new GuardaMovilEstadoDTO();
+            }
+            finally
+            {
+                db.FbConectionClose();
+            }
+        }
+
         public ConsulPagoDTO ConsultarPagoImpresion(String Dato)
         {
             Conection db = new Conection();
@@ -442,6 +551,11 @@ namespace ReglasDeNegocio
                         if (dt.Rows[0][25].ToString() != "")
                         {
                             pago.NROREF = Convert.ToString(dt.Rows[0][25]);
+                        }
+
+                        if (dt.Rows[0][26].ToString() != "")
+                        {
+                            pago.RESPUESTA = Convert.ToString(dt.Rows[0][26]);
                         }
                         if (pago != null)
                         { 
@@ -606,7 +720,73 @@ namespace ReglasDeNegocio
                 db.FbConectionClose();
             }
         }
-        
+
+        public List<TblFacturasPagos> FacturasdePagos(string idContrato)
+        {
+            List<TblFacturasPagos> lstTipoPagos = new List<TblFacturasPagos>();
+
+            Conection db = new Conection();
+
+            try
+            {
+
+                DataTable table = new DataTable();
+                //db.FbConeccion(_cadenaconexion);
+                //if (db.FbConectionOpen() == true)
+                //{
+                using (FbConnection conn = new FbConnection(this._cadenaconexion))
+                {
+                    conn.Open();
+                    using (FbCommand cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = "WS_ConsultarFacturasPago";
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("@IDCONTRATO", FbDbType.VarChar).Value = idContrato;
+
+                        FbDataAdapter adapter = new FbDataAdapter();
+                        adapter.SelectCommand = cmd;
+                        FbDataReader datos = cmd.ExecuteReader();
+
+
+                        while (datos.Read())
+                        {
+                            TblFacturasPagos tpago = new TblFacturasPagos();
+
+
+                            try
+                            {
+
+                                tpago.Factura = datos.GetString(0);
+                                tpago.Valor = datos.GetFloat(1);
+
+                            }
+                            catch (Exception ex)
+                            {
+                                throw new Exception("Error Consultando las facturas" + ex.Message);
+                            }
+
+                            lstTipoPagos.Add(tpago);
+
+
+                        }
+                    }
+                    conn.Close();
+                }
+                return lstTipoPagos;
+
+               
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error Consultando Tipos de Pagos" + ex.Message);
+            }
+            finally
+            {
+                db.FbConectionClose();
+            }
+        }
+
+      
         public TblFuneraria Funeraria()
         {
 

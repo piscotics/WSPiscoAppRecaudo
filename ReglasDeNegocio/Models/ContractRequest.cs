@@ -47,6 +47,22 @@ namespace WebApiPiscoTicsMobile.Models
             return contract;
         }
 
+        public List<ContratoDTO> ConsultarContratoEmpresa(string Empresa)
+        {
+            CatalogoContrato catalogo = new CatalogoContrato(CadenaConexion);
+            List<ContratoDTO> contract = new List<ContratoDTO>();
+            contract = catalogo.ConsultarContratoxEmpresaSP(Empresa);
+            return contract;
+        }
+
+        public List<ContratoDTO> ConsultarContratoNit(string Nit)
+        {
+            CatalogoContrato catalogo = new CatalogoContrato(CadenaConexion);
+            List<ContratoDTO> contract = new List<ContratoDTO>();
+            contract = catalogo.ConsultarContratoxNitSP(Nit);
+            return contract;
+        }
+
         public List<String> ConsultarDepartamento()
         {
             CatalogoContrato catalogo = new CatalogoContrato(CadenaConexion);
@@ -74,6 +90,14 @@ namespace WebApiPiscoTicsMobile.Models
             return contract;
         }
 
+
+        public List<String> VerFacturas(string NroCedula)
+        {
+            CatalogoContrato catalogo = new CatalogoContrato(CadenaConexion);
+            List<String> contract = new List<String>();
+            contract = catalogo.ConsultarFacturas(NroCedula);
+            return contract;
+        }
         public string ActualizarDatosContrato(UpdateContratoRequest contracto)
         {
             CatalogoContrato catalogo = new CatalogoContrato(CadenaConexion);
