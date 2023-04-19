@@ -95,3 +95,15 @@ C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincroniza
 C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.csproj.CopyComplete
 C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.dll
 C:\Users\AlexanderMauricioEsc\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.pdb
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\ModelSincronizador.dll.config
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\ModelSincronizador.dll
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\ModelSincronizador.pdb
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\EntityFramework.dll
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\EntityFramework.xml
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.csproj.CopyComplete
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.dll
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Release\ModelSincronizador.pdb

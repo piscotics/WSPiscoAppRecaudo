@@ -70,3 +70,15 @@ C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRec
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\obj\Debug\ModelSincronizador.csproj.CoreCompileInputs.cache
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\obj\Debug\ModelSincronizador.dll
 C:\Users\Henry\Downloads\WebApp Sincronizador\WEbApp Sincronizador\WSPiscoAppRecaudo\ModelSincronizador\obj\Debug\ModelSincronizador.pdb
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Debug\ModelSincronizador.dll.config
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Debug\ModelSincronizador.dll
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Debug\ModelSincronizador.pdb
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Debug\EntityFramework.dll
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Debug\EntityFramework.xml
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Debug\ModelSincronizador.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Debug\ModelSincronizador.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Debug\ModelSincronizador.csproj.CopyComplete
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Debug\ModelSincronizador.dll
+C:\Users\USER\Documents\GitHub\WSPiscoAppRecaudo\ModelSincronizador\obj\Debug\ModelSincronizador.pdb

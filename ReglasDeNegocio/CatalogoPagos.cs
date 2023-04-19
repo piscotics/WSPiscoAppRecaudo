@@ -354,7 +354,7 @@ namespace ReglasDeNegocio
                 db.FbConeccion(this._cadenaconexion);
                 db.FbConectionOpen();
 
-                using (FbConnection conn = new FbConnection(this._cadenaconexion))
+                using (FbConnection conn = new FbConnection(this._cadenaconexionWeb))
                 {
                     conn.Open();
                     using (FbCommand cmd = conn.CreateCommand())
