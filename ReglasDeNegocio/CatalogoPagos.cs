@@ -464,7 +464,7 @@ namespace ReglasDeNegocio
                             Total = m.Field<float>("VALOR"),
                             Usuario = m.Field<string>("USUARIO"),
                             Concepto = m.Field<string>("CONCEPTO"),
-                            Valorenletras = letras.enletras(m.Field<float>("CUOTA").ToString()),
+                            Valorenletras = letras.enletras(m.Field<float>("VALOR").ToString()),
                         }).FirstOrDefault();
 
 
@@ -557,6 +557,33 @@ namespace ReglasDeNegocio
                         {
                             pago.RESPUESTA = Convert.ToString(dt.Rows[0][26]);
                         }
+
+                        //datos de la empresa
+                        if (dt.Rows[0][27].ToString() != "")
+                        {
+                            pago.NitEmpresa = dt.Rows[0][27].ToString();
+                        }
+
+                        if (dt.Rows[0][28].ToString() != "")
+                        {
+                            pago.Empresa = dt.Rows[0][28].ToString();
+                        }
+
+                        if (dt.Rows[0][29].ToString() != "")
+                        {
+                            pago.TelefonoEmpresa = dt.Rows[0][29].ToString();
+                        }
+
+                        if (dt.Rows[0][30].ToString() != "")
+                        {
+                            pago.DireccionEmpresa = dt.Rows[0][30].ToString();
+                        }
+
+                        if (dt.Rows[0][31].ToString() != "")
+                        {
+                            pago.CiudadEmpresa = dt.Rows[0][31].ToString();
+                        }
+
                         if (pago != null)
                         { 
                             db = new Conection();

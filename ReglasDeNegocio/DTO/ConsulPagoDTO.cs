@@ -41,7 +41,14 @@ namespace ReglasDeNegocio.DTO
         public string FormaPago { get; set; }
         public string NROREF { get; set; }
         public string RESPUESTA { get; set; }
-        
+        public string NitEmpresa { get; set; }
+        public string Empresa { get; set; }
+        public string TelefonoEmpresa { get; set; }
+        public string DireccionEmpresa { get; set; }
+        public string CiudadEmpresa { get; set; }
+
+
+
 
     }
 }
